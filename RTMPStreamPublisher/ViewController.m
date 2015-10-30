@@ -46,11 +46,11 @@
     socket = nil;
     upstream = nil;
 
-    hostTextField.text = @"rtmp://10.0.1.71:1935/live";
-    //hostTextField.text = @"rtmp://10.0.1.62:1935/live";
+    hostTextField.text = @"rtmp://alpha-767051982.ap-southeast-1.elb.amazonaws.com:1935/live";
+    hostTextField.text = @"rtmp://54.179.161.154:1935/live";
     hostTextField.delegate = self;
 
-    streamTextField.text = @"teststream";
+    streamTextField.text = @"the6";
 	streamTextField.delegate = self;
 }
 
